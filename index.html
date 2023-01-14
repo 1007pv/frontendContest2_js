@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contest 2</title>
+</head>
+<body>
+    <form id="form">
+        <h3>New Employees</h1>
+            <label for="name">Enter Name</label><br>
+            <input type="text" required><br>
+            <label for="name">Enter Profession</label><br>
+            <input type="text" required><br>
+            <label for="name">Enter Age</label><br>
+            <input type="number" required><br>
+            <input type="submit" class="btn" onclick="addEmployee()">
+    </form>
+
+<p id="showAlert">alert message</p><br>
+
+<label for="addedEmployee">Added Employees</label><br>
+    <table>
+        <tbody>
+        <thead>
+            <tr>
+                <th id="ename">Name: </th>
+                <th id="eprofession">Profession: </th>
+                <th id="eage">Age: </th>
+            </tr>
+        </thead>
+    </tbody>
+    </table>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
